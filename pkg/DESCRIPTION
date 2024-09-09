@@ -2,7 +2,7 @@ Package: abind
 Version: 1.4-8
 Date: 2024-09-08
 Title: Combine Multidimensional Arrays
-Author: Tony Plate <tplate@acm.org> and Richard Heiberger
+Authors@R: c(person("Tony", "Plate", email = "tplate@acm.org", role = c("aut", "cre")), person("Richard", "Heiberger", role = c("aut")))
 Maintainer: Tony Plate <tplate@acm.org>
 Description: Combine multidimensional arrays into a single array.
   This is a generalization of 'cbind' and 'rbind'.  Works with
